@@ -1,0 +1,105 @@
+.jogosDaIsa {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+.tituloJogo {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.centralizarGrupo {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoPrincipal {
+    padding: 50px;
+    width: max-content;
+}
+
+.divJogos2E3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.borderRadius {
+    border-radius: 24px;
+}
+
+.bordaAzul {
+    border-color: #00C2CB;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.bordaAmarela {
+    border-color: #FFBD59;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.fundoAzul {
+    background-color: #00C2CB;
+}
+
+.fundoAmarelo {
+    background-color: #FFBD59;
+}
+
+.botao {
+    display: flex;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #545454;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.resposta {
+    text-transform: uppercase;
+    color: #545454;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.textoBasico {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 25px;
+}
+
+.textoDestacado {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #545454;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hour {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#date {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}

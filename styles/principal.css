@@ -1,0 +1,35 @@
+.botoesLadoALado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoesMenuPrincipal {
+    width: 140px;
+    height: 55px;
+    display: flex;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #545454;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.margemADireita {
+    margin-right: 25px;
+}
+
+.margemAEsquerda {
+    margin-left: 25px;
+}
+
+.margemBaixo {
+    margin-bottom: 25px;
+}
+
+.margemCima {
+    margin-top: 25px;
+}

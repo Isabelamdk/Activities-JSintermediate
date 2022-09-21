@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--voltarHome, H2ParImpar, inputNumero, buttonVerificar, innerTextParImpar,HeaderFooter-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos da Isa</title>
+    <link rel="stylesheet" type="text/css" href="./styles/jogo1.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./styles/geral.css" media="screen" />
+</head>
+
+<body>
+
+    <header>
+        <h1 class="jogosDaIsa">
+            Jogos da Isa
+        </h1>
+    </header>
+
+    <a class="textoBasico" href="./index.html">
+        Voltar ao menu iniciar
+    </a>
+
+    <h2 class="tituloJogo centralizarGrupo">
+        Par ou Ímpar?
+    </h2>
+    
+    <div class="centralizarGrupo">
+        <div class="bordaAzul borderRadius conteudoPrincipal">        
+            <p class="textoBasico">
+                Digite o número: <input id="inputNumber" class="borderRadius bordaAzul fundoAzul textoBasico tamanhoInputConteudo" type="number"></input>
+            </p>
+            <p>
+                <button id="botaoVerificar" class="borderRadius bordaAmarela fundoAmarelo botao tamanhoBotaoVerificar" onclick="parOuImpar()">Verificar</button>
+            </p>
+            <p>
+                <span id="answer" class="textoDestacado"></span>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <h3 id="hour"></h3>
+        <h4 id="date"></h4>
+    </footer>
+
+    <script src="./scripts/jogo1.js"></script>
+    <script src="./scripts/date.js"></script>
+
+</body>
+
+</html>

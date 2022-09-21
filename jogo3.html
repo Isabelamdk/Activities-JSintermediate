@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos da Isa</title>
+    <link rel="stylesheet" type="text/css" href="./styles/geral.css" media="screen" />
+</head>
+
+<body>
+
+    <header>
+        <h1 class="jogosDaIsa">
+            Jogos da Isa
+        </h1>
+    </header>
+
+    <a class="textoBasico" href="./index.html">
+        Voltar ao menu iniciar
+    </a>
+
+    <h2 class="tituloJogo centralizarGrupo">
+        Sorteio de número aleatório
+    </h2>
+
+    <div class="centralizarGrupo">
+        <div class="bordaAzul borderRadius conteudoPrincipal divJogos2E3">
+            <div>
+                <p class="textoBasico">
+                    Qual será o valor <b>mínimo?</b> <input class="borderRadius bordaAzul fundoAzul textoBasico" id="minimo"
+                    value="0" type="number" width="2px"></input> <br>
+                    Qual será o valor <b>máximo?</b> <input class="borderRadius bordaAzul fundoAzul textoBasico" id="maximo"
+                    value="100" type="number"></input> <br>
+                </p>
+                <button class="borderRadius bordaAmarela fundoAmarelo botao" onclick="getRandomNumber()">SORTEAR</button>
+            </div>
+            <div>
+                <p id="erro" class="textoBasico">
+                </p>
+                <p id="resposta" class="textoDestacado">
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3 id="hour"></h3>
+        <h4 id="date"></h4>
+    </footer>
+
+    <script src="./scripts/geral.js"></script>
+    <script src="./scripts/jogo3.js"></script>
+    <script src="./scripts/date.js"></script>
+
+</body>
+
+</html>

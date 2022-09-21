@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos da Isa</title>
+    <link rel="stylesheet" type="text/css" href="./styles/jogo2.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./styles/geral.css" media="screen" />
+</head>
+
+<body>
+
+    <header>
+        <h1 class="jogosDaIsa">
+            Jogos da Isa
+        </h1>
+    </header>
+
+    <a class="textoBasico" href="./index.html">
+        Voltar ao menu iniciar
+    </a>
+    <h2 class="tituloJogo centralizarGrupo">
+        Qual é o maior número?
+    </h2>
+    <div class="centralizarGrupo">
+        <div class="bordaAzul borderRadius conteudoPrincipal divJogos2E3">
+            <div>
+                <p class="textoBasico">
+                    Digite um número:<input id="n1" class="borderRadius bordaAzul fundoAzul textoBasico" type="number" size="1"></input>
+                </p>
+                <p class="textoBasico">                
+                    Digite um número:<input id="n2" class="borderRadius bordaAzul fundoAzul textoBasico" type="number"></input>
+                </p>
+                <p>                
+                    <button class="borderRadius bordaAmarela fundoAmarelo botao" onclick="maiorOuMenor()">Verificar</button>
+                </p>
+            </div>
+            <div class="fundoAmarelo">
+                <span id="answer" class="resposta"></span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3 id="hour"></h3>
+        <h4 id="date"></h4>
+    </footer>
+
+    <script src="./scripts/jogo2.js"></script>
+    <script src="./scripts/date.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos da Isa</title>
+    <link rel="stylesheet" type="text/css" href="./styles/geral.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./styles/jogo4.css" media="screen" />
+</head>
+
+<body>
+
+    <header>
+        <h1 class="jogosDaIsa">
+            Jogos da Isa
+        </h1>
+    </header>
+
+    <a class="textoBasico" href="./index.html">
+        Voltar ao menu iniciar
+    </a>
+
+    <h2 class="tituloJogo centralizarGrupo">
+        Adivinhe qual o número
+    </h2>
+
+    <div class="centralizarGrupo">
+        <div class="bordaAzul borderRadius conteudoPrincipal">
+            <button id="botaoSorteio" class="borderRadius bordaAmarela fundoAmarelo botao" onclick="generateRandomNumber()">SORTEAR NÚMERO</button>
+            <div id="tentarAdivinhar" class="textoBasico ocultar">
+                Digite um número entre 1 e 5: <input id="numeroDigitado" class="borderRadius bordaAzul fundoAzul textoBasico" placeholder="digite aqui" type="number"></input>
+                <button class="borderRadius bordaAmarela fundoAmarelo botao" onclick="tentarAdivinhar()">VERIFICAR</button>
+                <div id="voceErrou" class="textoBasico ocultar">
+                    <p>
+                        Você errou
+                    </p>
+                    <p id="dica">
+                        
+                    </p>
+                </div>
+            </div>
+            <div id="voceGanhou" class="textoDestacado ocultar">
+                <p>
+                    Você Ganhou!
+                </p>
+                <button class="borderRadius bordaAmarela fundoAmarelo botao" onclick="jogarNovamente()">JOGAR NOVAMENTE</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3 id="hour"></h3>
+        <h4 id="date"></h4>
+    </footer>
+
+    <script src="./scripts/geral.js"></script>
+    <script src="./scripts/jogo4.js"></script>
+    <script src="./scripts/date.js"></script>
+
+</body>
+
+</html>
